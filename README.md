@@ -9,22 +9,43 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 
 ### Results: Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
 
+Precision = TruePositives / (TruePositives + FalsePositives)
 #### Random Over Sampler
 ![ros](resources/RandomOverSampler.png)
+
+- Accuracy: 0.6579
+- Precision: 0.01049
 
 #### SMOTE
 ![smote](resources/SMOTE.png)
 
+- Accuracy: 0.6436
+- Precision: 0.01097
+
 #### Cluster Centroids
 ![clustercentroids](resources/clustercentroids.png)
+
+- Accuracy: 0.5443
+- Precision: 0.0068
 
 #### SMOTEENN
 ![smoteenn](resources/smoteenn.png)
 
+- Accuracy: 0.6584
+- Precision: 0.0099
+
 #### Balanced Random Forest Classifier
 ![brfc](resources/brfc.png)
 
+- Accuracy: 0.7493
+- Precision: 0.0236
+
 #### Easy Ensemble Classifier
 ![eec](resources/eec.png)
+
+- Accuracy: 0.8230
+- Precision: 0.0318
+
+
 
 ### Summary: Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
